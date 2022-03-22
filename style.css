@@ -1,0 +1,87 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: 400px;
+  background-image: url('https://images.alphacoders.com/609/609602.png');
+  background-color: #000000
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 80vh;
+}
+
+.page-title {
+  font-style: italic;
+  color:#ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color:#ffffff;
+  margin-top: 5px;
+}
+
+.alura-logo {
+  width: 80px;
+  position: absolute;
+  top: 715px;
+  right: 15px;
+}
+
+.page-logo {
+  width:500px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 0 100px;
+  margin-top: 25px;
+  gap: 10px;
+  width: 300px;
+}
+
+.resultado {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 0 100px;
+  margin-top: 25px;
+  gap: 10px;
+}
+
+.formulario input:not(.button){
+  padding: 15px;
+  border: none;
+  border-radius: 3px;
+}
+
+.button {
+  padding: 15px;
+  border: none;
+  border-radius: 3px;
+  background-color: #696969;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease-in-out; 
+}
+
+.button:hover {
+  background-color: #808080;
+}
+
+#resultado {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+#mensagem {
+  font-size: 20px;
+  font-style: bold;
+}
